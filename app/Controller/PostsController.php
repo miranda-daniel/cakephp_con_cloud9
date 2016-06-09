@@ -5,9 +5,9 @@
 
 		public function index() {
 
-			// $this->Post->recursive = -1;
+			$this->Post->recursive = -1;
 
-			// $this->set('posts', $this->paginate());
+			$this->set('posts', $this->paginate());
 		}
 
 		//////////////////////////////////////////////////////////////////////////////////////////////
